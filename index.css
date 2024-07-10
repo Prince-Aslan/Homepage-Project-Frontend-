@@ -1,0 +1,100 @@
+body {
+    margin: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#hero {
+    background-image: url("https://ocdn.eu/images/pulscms/MTY7MDA_/72c64ac52882e65977c3f3d05788669f.jpg");
+    background-size: cover;
+    height: 650px;
+    padding: 80px 0 40px 0;
+}
+
+#header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    margin-left: auto;
+    margin-right: auto;
+    
+
+}
+.title {
+    background: rgb(112, 118, 119);
+    margin-top: 50px;
+    margin-bottom: 5px;
+    padding: 6px 10px;
+    color: white;
+}
+
+.intro {
+    background: rgb(112, 118, 119); 
+    padding: 6px 10px;
+    color: white;
+} 
+
+.tour{
+    background: rgb(241, 240, 240);
+    margin-bottom: 35px;    
+    padding-top: 30px;
+}
+
+h3 {
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
+}
+
+.pix {
+    height: 150px;
+    width: 150px;
+    border-radius:100px;
+}
+.section-2 {
+    display: flex;
+    justify-content: space-around;
+    /* flex-direction: row; */
+    align-items: center;  
+    margin-left: 40px;
+    margin-right: 40px;   
+    
+}
+
+
+h4, p {
+    text-align: center;
+}
+
+.container{
+background: rgb(133, 82, 180);
+margin-top: 50px;
+margin-bottom: 1pxpx;
+margin-left: auto;
+margin-right: auto;
+width: 700px;
+display: flex ;
+border-bottom: 5px solid blue;
+color: whitesmoke;
+}
+
+.passport, .passport-c  { 
+    margin: 15px;
+}
+
+.passport{
+    width: 250px;
+    height: 250px;
+}
+
+.footer {
+position: relative;
+top: 50px;
+width: 100%;
+background-color: #333;
+color: white;
+text-align: center;
+padding: 10px 0;
+}
